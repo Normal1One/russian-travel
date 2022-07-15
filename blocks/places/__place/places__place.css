@@ -1,0 +1,23 @@
+.places__place {
+  max-width: 984px;
+  margin: 80px auto 0 auto;
+  display: grid;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+  "title website"
+  "image text";
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    margin-top: 50px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text";
+  }
+}

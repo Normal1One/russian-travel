@@ -1,0 +1,9 @@
+.places__image {
+  max-width: 460px;
+  max-height: 460px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  grid-area: image;
+}
