@@ -8,7 +8,7 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0 auto;
-  min-width: 288px;
+  max-width: 560px;
 }
 
 @media screen and (max-width: 320px) {
