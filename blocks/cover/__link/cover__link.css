@@ -11,8 +11,21 @@
   margin: 0 auto;
   box-sizing: border-box;
   text-decoration: none;
-  padding: 152px 66px;
   max-width: 1184px;
+  max-height: 740px;
+  padding: 245px 312px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
 }
 
 @media screen and (max-width: 320px) {
