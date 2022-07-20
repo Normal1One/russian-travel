@@ -9,9 +9,10 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__copyright {
     margin-top: 48px;
     align-self: flex-start;
+    margin-bottom: 24px;
   }
 }

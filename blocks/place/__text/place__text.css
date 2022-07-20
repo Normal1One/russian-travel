@@ -2,9 +2,10 @@
   grid-area: text;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__text {
     margin: 0 auto;
     width: 288px;
+    margin-top: 32px;
   }
 }
