@@ -1,9 +1,9 @@
-# Проект: Путешествие по России
+# Project: Journey through Russia
 ```
 https://normal1one.github.io/russian-travel/
 ```
-## Интро
-Проект о путешествии по России.
+## Intro
+A project about a trip to Russia.
 
-## Технологии
+## Technologies
 HTML5, CSS3
